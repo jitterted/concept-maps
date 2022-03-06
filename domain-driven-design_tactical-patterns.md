@@ -13,7 +13,7 @@ flowchart TD
     aggroot["Aggregate Root"]
     service[Service]
     factory[Factory]
-    txnBoundary["Transactional and\nConsistency/Integrity\ Boundary"]
+    txnBoundary["Transactional and Consistency\n(Integrity) Boundary"]
 
     agg -->|is in| domain
     agg -->|defines| txnBoundary
